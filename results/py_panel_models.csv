@@ -1,0 +1,20 @@
+model,term,coef,t,nobs,r2
+1. Team FE,payroll,1.801e-10,4.39,1128.0,0.0172
+2. OLS + luxury tax dummy,payroll,1.868e-10,3.93,1128.0,0.0547
+2. OLS + luxury tax dummy,paid_luxury_tax,0.04191,3.76,1128.0,0.0547
+3. OLS + post-2003,post2003,-0.03316,-5.99,1128.0,0.0724
+3. OLS + post-2003,payroll,4.898e-10,9.36,1128.0,0.0724
+4. Team FE + policy periods,payroll,4.001e-10,6.22,1128.0,0.0345
+4. Team FE + policy periods,policy2003,-0.01771,-2.95,1128.0,0.0345
+4. Team FE + policy periods,policy2012,-0.02963,-3.64,1128.0,0.0345
+4. Team FE + policy periods,policy2017,-0.03393,-4.19,1128.0,0.0345
+"2c. OLS + lux tax, clustered",payroll,1.868e-10,2.85,1128.0,0.0547
+"2c. OLS + lux tax, clustered",paid_luxury_tax,0.04191,3.67,1128.0,0.0547
+"3c. OLS + post-2003, clustered",post2003,-0.03316,-3.97,1128.0,0.0724
+"3c. OLS + post-2003, clustered",payroll,4.898e-10,5.39,1128.0,0.0724
+"4c. Team FE + policy, clustered",payroll,4.001e-10,4.54,1128.0,0.0345
+"4c. Team FE + policy, clustered",policy2003,-0.01771,-2.13,1128.0,0.0345
+"4c. Team FE + policy, clustered",policy2012,-0.02963,-2.71,1128.0,0.0345
+"4c. Team FE + policy, clustered",policy2017,-0.03393,-2.79,1128.0,0.0345
+"5. Team FE, payroll relative to league mean, clustered",rel_payroll,0.06861,8.29,1128.0,0.0706
+"6. Two-way FE (team + year), clustered",payroll,6.021e-10,5.2,1128.0,0.183

@@ -1,0 +1,5 @@
+series,adf_stat,p_value,lags
+payroll_sd,-0.45,0.901,7
+winpct_sd,-2.859,0.05,0
+diff(payroll_sd),-3.348,0.013,6
+diff(winpct_sd),-6.031,0.0,1

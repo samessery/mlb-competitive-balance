@@ -1,0 +1,5 @@
+,coef,coef,p_value,p_value
+,Payroll_sd,WinPct_sd,Payroll_sd,WinPct_sd
+const,0.007,0.041,0.969,0.804
+L1.Payroll_sd,-0.195,-0.076,0.239,0.647
+L1.WinPct_sd,-0.163,-0.111,0.331,0.507
